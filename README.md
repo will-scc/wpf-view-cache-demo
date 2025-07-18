@@ -1,0 +1,1 @@
+A small demo app to show how when using a ViewModel first approach with DataTemplates, that moving a ViewModel into a new Window causes the View to be destroyed in the original window and recreated in the new window. This causes any unbound view state information to be lost, e.g. scrollbar position.
